@@ -1,6 +1,4 @@
-# Untitled
-
-## MEASURE: Multi-stage Evaluation for Assessing Structured Understanding in Resume Extraction
+# MEASURE: Multi-stage Evaluation for Assessing Structured Understanding in Resume Extraction
 
 MEASURE is a multi-stage benchmark and evaluation framework for resume parsing that systematically evaluates multiple Document Understanding (DU) components under a unified framework. It covers **layout analysis**, **reading order**, **text extraction**, and **semantic understanding**.
 
