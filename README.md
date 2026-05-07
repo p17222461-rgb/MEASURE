@@ -62,7 +62,8 @@ Most VLMs were prompted to generate structured JSON output following a predefine
 
 ### Repository Structure
 
-`MEASURE/
+```
+MEASURE/
 ├── evaluation_pipeline.ipynb     # Main evaluation: OCR, layout, reading order, NER
 ├── vlms_evaluation.ipynb         # VLM semantic evaluation (BERTScore)
 ├── pyproject.toml                # Dependencies and package metadata
@@ -95,6 +96,8 @@ Most VLMs were prompted to generate structured JSON output following a predefine
         ├── train.py               # Training script
         ├── train.sh               # Training shell wrapper
         └── ds_config.json         # Dataset config for training`
+```
+
 
 The `utils/v3/` submodule is adapted from [FreeOCR-AI/layoutreader](https://github.com/FreeOCR-AI/layoutreader), originally developed by Pang Hantian, which ports LayoutReader into the HuggingFace Transformers environment.
 
